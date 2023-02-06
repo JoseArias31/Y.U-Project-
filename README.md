@@ -1,14 +1,14 @@
 # Y.U-Project-
 
- ('[C Gaming Website Final Project]')
- `(https://www.figma.com/file/jFoZCurtMMNy8aLoQ5o3KW/PrinSend?node-id=0%3A1&t=0bcag6mbfsdRUPOf-1)`
+ ('[SenDo Website - Final Project]')
+ `(https://www.figma.com/file/nhFOQlLviLvpCT6KmrNie9/SenDo?node-id=0%3A1&t=jsywzTHVIcTyBl9F-1)`
 
-Virtual Arena 
+SenDo
 
 User story:
 
-As a passionate gamer, Joe wants to find a website where he can keep up with the latest gaming news, read reviews, and buy and download PC video games and competitive video games. He visits a gaming website and creates an account. Additionally, Joe is able to join social media related to gaming where they can discuss strategies, share tips, and make new friends.
+As a busy professional, I want to be able to quickly and easily print and send important documents from a website, so that I can save time and stay organized. I want to be able to upload my document, select the desired printing options, and have the document sent directly to my desired location, whether that be a printer or an email recipient. Additionally, I want to be able to track the status of my print job and receive notifications when it has been successfully completed. This will allow me to focus on my work and not waste time on administrative tasks.
 
 Admin story:
 
-As the administrator of a gaming website, I face the challenge of maintaining the site's content and ensuring that it provides a positive and unique experience. To keep making the website flow, I start by reviewing the website's analytics to identify any areas that need improvement. I also respond to user inquiries and resolve any technical issues that arise. In addition, I am responsible for updating the website's content, such as game information new launches. Overall, My role is crucial in ensuring that the gaming website provides a positive user experience and is a trusted source of information for the gaming community, this could help to keep growing and attracting new users. 
+As an administrator of a printing and sending documents through my website, I want to provide a seamless and transparent experience to my clients, by allowing them to track their document requests from start to finish. I want to be able to update clients on the status of their print job, including when the document has been received, printed, and sent, and provide them with tracking information if available. This will improve customer satisfaction and build trust in my service. Additionally, I want to be able to securely store client information and document data, to ensure privacy and compliance with regulations. This will allow me to provide a high-quality and reliable service to my clients.
