@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    
+    font-family: sans-serif;
+  
+}
+
+/*Backgrounds*/
+
+/*Main*/
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background: url(Background.jpg);   
+    background-position: top center;
+    overflow-x: hidden;
+}
+
+
+ /* Services section */
+
+
+
+ #services {
+    height: 100vh;
+   width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: url(NoteBook.jpg);   
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+    background-attachment:scroll;
+   
+ }
+
+/* Why Us? Section*/
+
+#why-us {
+    height: 100vh;
+   width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: url(Cafe\ Background.jpg);   
+    background-size: cover;
+    background-position: bottom center;
+    overflow-x: hidden;
+    background-attachment:scroll;
+   
+ }
+
+/*Background*/
+
+
+/* Header*/
+#navi-bar {
+display: flex;
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+justify-content: space-between;
+align-items: center;
+z-index: 9999;
+
+}
+
+#first-list {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    width: 100%;
+    font-weight: 600; 
+    margin: 15px;
+    gap: 9%;
+    margin-right: 60px;
+    color: white;
+    
+}
+
+.headerL {
+    cursor: pointer;
+    font-size: 35px;
+    -webkit-text-stroke: 2px black;
+    
+}
+
+/*hover*/
+
+.headerL:hover {
+    color:black;
+    font-weight: 600;
+ }
+
+ .social:hover {
+    background: black;
+    border-radius: 70%;
+ }
+
+ #thirdH2:hover {
+    color:black;
+    font-weight: 600;
+    text-decoration: underline;
+    
+    
+ }
+   
+/* Images */
+
+#logo {
+    width: 25%;
+    margin-top: -100px;
+    margin-bottom: -100px;
+
+}
+
+#firstH1 {
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 55px;
+}
+
+#firstH2 {
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#secondH2 {
+    text-align: end;
+    width: 20%;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+    font-size: 35px;
+    padding-right: 30px ;
+    margin-bottom: 5px;
+}
+
+#track {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    
+    }
+
+    input[type="text"] {
+        width: 500px;
+        height: 40px;
+        text-align: center;
+        font-size: 25px;
+        font-family: sans-serif;
+        border: black solid 5px;
+        border-radius: 5%;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    #trackButton {
+        margin-left: 20px;
+        width: 60px;
+        height: 48px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+ #rightArrow {
+    width: 70%;
+ }
+
+ #trackButton:hover {
+    border: black solid 5px;
+ }
+
+ #getAnEstimate  {
+    width: 316px;
+    height: 47px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#calculator {
+    width: 12%;
+}
+
+#printAndSend{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 390px;
+    height: 97px;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#add {
+    width: 12%;
+}
+ #submitBottons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+ }
+
+ #getAnEstimate:hover, #printAndSend:hover {
+    border: black solid 5px;
+ }
+
+
+
+ /*Services*/
+
+ #services-list {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+ }
+
+ #serviceTitle {
+    font-size: 60px;
+ }
+ 
+
+ .listOfContent1 {
+    list-style-type: none;
+ }
+
+ #transform {
+    transform: rotate(350deg);
+    margin-left: 600px;
+    
+ }
+
+ /*Why us?*/
+
+ #whyUsText {
+    font-size: 60px;
+    color: white;
+    position:absolute ;
+    top: 2000px;
+    
+ }
+
+ .paragraph {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+
+ }
+
+ #text1 {
+    width: 30%;
+    margin-left: 65%;
+    padding-top: 10%;
+ }
+
+ #text2 {
+    width: 20%;
+    margin-left: 7%;
+ }
+
+ #text3 {
+    width: 20%;
+    margin-left: 71%;
+    padding-top: 2%;
+ }
+
+#secondtH2 {
+    font-size: 35px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+}
+#thirdH2 {
+    margin-right: 7%;
+    font-size: 35px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    align-self: center;
+    
+    
+    
+    
+}
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 25px;
+    font-family: 'Kite One', sans-serif;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+.social {
+    margin: 8px;
+    
+    
+   
+}
+
+
+#number {
+  align-self: center;  
+  width: 17%;
+  text-decoration: solid;
+  
+}
