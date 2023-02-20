@@ -1,3 +1,5 @@
+// Get an Estimate section 
+
 function openEstimateSection() {
     var estimateWindow = window.open("", "Get an Estimate", "width=725,height=680");
     var estimateForm = 
@@ -10,7 +12,7 @@ function openEstimateSection() {
     "<h2 style='color: white; font-size: 25px;'>To</h2>" + "<div>" + "<h2 style='color: white; font-size: 20px;'>Address:</h2>" + "<input style='width:250px; type='text' id='postalCode' name='Postal Code'>" + "</div>" + "<div>" +"<h2 style='color: white; font-size: 20px;'>Country:</h2>" + "<h3 style='color: white; font-size: 20px;'>Canada*</h3>" + "</div>" +
     "</div>" + "</div>" + "<form style='border: 1px solid white; margin-left: 35px;     margin-right: 35px; padding: 30px;'>" + "<h1 style='font-size: 25px; color: white;'>Info</h1>" +
       "<label style='color:white; font-size: 25px;' for='total'>Number of Pages:</label>" +
-      "<input style='width:100px; text-align: center;' type='number' id='number' name='total'><br><br>" +
+      "<input style='width:100px; text-align: center;' type='number' id='number2' name='total'><br><br>" +
       "<label style='color:white; font-size: 25px;' for='email'>Email:</label>" +
       "<input style='width: 215px;'type='email' id='email' name='email'><br><br>" +
       "<label style='color:white; font-size: 25px;' for='phone'>Phone Number:</label>" +
@@ -19,3 +21,23 @@ function openEstimateSection() {
       "</form>" + "</section>";
     estimateWindow.document.body.innerHTML = estimateForm;
   }
+
+ 
+// Get an Estimate section 
+
+
+// Track your order
+
+const trackNumberRG = /^\d{3}-\d{2}-\d{3}-\d{2}$/;
+const $track = document.getElementById("nombre");
+const isValidTrackNumber = trackNumberRG.test($track.value);
+
+if (isValidTrackNumber) {
+  console.log("El track number es válido.");
+} else {
+  console.log("El track number no es válido.");
+}
+
+//function tracking() {
+ // alert("This is not a message")
+//}

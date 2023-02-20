@@ -106,10 +106,21 @@ nav a {
     
 }
 
+.headerL2 {
+    color: black;
+}
+
+
+
 /*hover*/
 
 .headerL:hover {
     color: black;
+      
+ }
+
+ .headerL2:hover {
+    color: white;
     
     
  }
@@ -124,6 +135,10 @@ nav a {
     font-weight: 600;
     text-decoration: underline;
     
+ }
+
+ .social2:hover {
+    background: rgb(56, 49, 49);
     
  }
    
@@ -214,6 +229,8 @@ nav a {
     width: 12%;
 }
 
+/*Bottons*/
+
 #printAndSend{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.8);
@@ -240,7 +257,18 @@ nav a {
     border: black solid 5px;
  }
 
-
+#login {
+    cursor: pointer;
+    background-color:black;
+    width: 341px;
+    height: 80px;
+    font-size: 45px;
+    font-weight: bold;
+ border-radius: 40px;
+    justify-content: space-evenly;
+    align-items: center; 
+    color: white;
+}
 
  /*Services*/
 
@@ -347,9 +375,57 @@ footer {
 }
 
 
+/* Login Section  */
+
+
 #number {
   align-self: center;  
   width: 17%;
   text-decoration: solid;
   
 }
+
+/*  1part  */
+
+#firstPart {
+    display: flex;
+    border: solid 1px black;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 850px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/* 1part  */
+
+
+/* bottons */
+
+#password, #emailLogin {
+    border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  width: 700px;
+  font-size: 35px;
+  padding-left: 50px;
+
+}
+
+
+/* bottons */
+
+
+
+
+#SenDoRights {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+
+
