@@ -241,6 +241,7 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 #add {
@@ -260,14 +261,30 @@ nav a {
 #login {
     cursor: pointer;
     background-color:black;
-    width: 341px;
-    height: 80px;
-    font-size: 45px;
+    width: 200px;
+    height: 60px;
+    font-size: 35px;
     font-weight: bold;
  border-radius: 40px;
     justify-content: space-evenly;
     align-items: center; 
     color: white;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+
+
+#findMe {
+    border: 2px white solid;
+    background: black;
+    color: white;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 90px 0px 0px 90px;
+    
 }
 
  /*Services*/
@@ -385,23 +402,35 @@ footer {
   
 }
 
-/*  1part  */
+/*  parts  */
+
+
 
 #firstPart {
     display: flex;
-    border: solid 1px black;
-    justify-content: space-around;
     flex-direction: column;
-    height: 500px;
+    height: 350px;
     width: 850px;
     margin-left: 100px;
     margin-top: 50px;
 }
 
-/* 1part  */
+#secondPart {
+    border: 1px solid black;
+    width: 423px;
+    height: 600px;
+    background: black;
+    color: white;
+    position: absolute;
+    top: 211px;
+    left: 1200px;
+}
 
 
-/* bottons */
+/* parts  */
+
+
+/*login access */
 
 #password, #emailLogin {
     border-top: none;
@@ -411,8 +440,12 @@ footer {
   width: 700px;
   font-size: 35px;
   padding-left: 50px;
+  margin-top: 20px;
 
 }
+
+/* bottons */
+
 
 
 /* bottons */
