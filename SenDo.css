@@ -491,7 +491,7 @@ footer {
 
 
 
-/* bottons */
+
 
 
 
@@ -534,3 +534,108 @@ footer {
     
     
 }
+
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1024px) and (max-width: 1900px) {
+
+    /*Bottons and inputs*/  
+    #printAndSend {
+     font-size: 30px;
+     width: 300px;
+     height: 70px;
+    }
+
+    #getAndEstimateBotton {
+     margin-left: 210px;
+    }
+
+    #getAnEstimate{
+    width: 200px;
+    height: 47px;
+    font-size: 20px;
+    }
+
+    input[type="text"] {
+        font-size: 20px;
+        width: 400px;
+        height: 35px;
+    }
+
+    #trackButton {
+        width: 50px;
+    height: 38px;
+    }
+
+    #submitBottons {
+        margin-top: 90px;
+    }
+
+    /*Bottons and inputs*/  
+
+/*Nav*/
+
+.headerL {
+    
+    font-size: 23px;
+
+}
+
+#first-list {
+    gap: 5%;
+}
+
+/*Nav*/
+
+/*Logo*/
+
+#logo {
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-bottom: -40px;
+}
+
+/*Logo*/
+
+/*text*/
+
+#firstH1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#secondH2 {
+    font-size: 25px;
+    
+}
+
+#track {
+    margin-left: 30px;
+}
+
+#secondtH2{
+    font-size: 30px;
+}
+
+#thirdH2{
+    font-size: 25px;
+    
+}
+
+#number{
+    width: 250px;
+    
+}
+
+/*text*/
+
+/*Footer*/
+.social {
+    width: 50px;
+}
+
+/*Footer*/
+
