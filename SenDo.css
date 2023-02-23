@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
-    
+    transition: all .1s ease;
 }
 
 body {
@@ -150,6 +151,17 @@ nav a {
     font-weight: bold;
  }
 
+ #findMe:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+ }
+
+ #login:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+ }
    
 /*hover*/
 
@@ -540,6 +552,8 @@ footer {
 
 /* Responsive */
 
+/* Desktop 1024 x 768 */
+
 @media only screen and (min-width: 1024px) and (max-width: 1900px) {
 
     /*Bottons and inputs*/  
@@ -630,7 +644,32 @@ footer {
     
 }
 
+#serviceTitle {
+    font-size: 40px;
+}
+
+#services-list {
+    font-size: 18px;
+}
+
+.paragraph {
+    font-size: 15px;
+}
+
+#whyUsText{
+    top: 1650px;
+   
+}
+
+#text1 {
+    padding-top: 14%;
+    padding-bottom: 148px;
+    width: 39%;
+    margin-left: 52%;
+    
+}
 /*text*/
+
 
 /*Footer*/
 .social {
@@ -639,3 +678,10 @@ footer {
 
 /*Footer*/
 
+/*services*/
+
+#transform{
+    margin-left: 350px;
+}
+
+}
