@@ -5,6 +5,13 @@
 
 SenDo
 
+Responsive devices:
+
+Desktop (default browser) 
+Desktop 1024 * 768
+iPad  768 * 1024
+iPhone 12 Pro  390 * 844
+
 User story:
 
 As a busy professional, I want to be able to quickly and easily print and send important documents from a website, so that I can save time and stay organized. I want to be able to upload my document, select the desired printing options, and have the document sent directly to my desired location, whether that be a printer or an email recipient. Additionally, I want to be able to track the status of my print job and receive notifications when it has been successfully completed. This will allow me to focus on my work and not waste time on administrative tasks.
