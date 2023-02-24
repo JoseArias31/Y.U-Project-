@@ -388,7 +388,7 @@ input[class="formSubmit"] {
  #text1 {
     width: 30%;
     margin-left: 65%;
-    padding-top: 10%;
+    padding-top: 9%;
  }
 
  #text2 {
@@ -550,11 +550,35 @@ footer {
 
 
 
-/* Responsive */
+/* Responsive Design*/
 
 /* Desktop 1024 x 768 */
 
 @media only screen and (min-width: 1024px) and (max-width: 1900px) {
+
+/*Nav*/
+
+.headerL {
+    
+    font-size: 23px;
+
+}
+
+#first-list {
+    gap: 5%;
+}
+
+/*Nav*/
+
+/*Logo*/
+
+#logo {
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-bottom: -40px;
+}
+
+/*Logo*/
 
     /*Bottons and inputs*/  
     #printAndSend {
@@ -588,31 +612,7 @@ footer {
         margin-top: 90px;
     }
 
-    /*Bottons and inputs*/  
-
-/*Nav*/
-
-.headerL {
-    
-    font-size: 23px;
-
-}
-
-#first-list {
-    gap: 5%;
-}
-
-/*Nav*/
-
-/*Logo*/
-
-#logo {
-    margin-top: -50px;
-    margin-left: 10px;
-    margin-bottom: -40px;
-}
-
-/*Logo*/
+/*Bottons and inputs*/  
 
 /*text*/
 
@@ -653,7 +653,7 @@ footer {
 }
 
 .paragraph {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #whyUsText{
@@ -662,11 +662,25 @@ footer {
 }
 
 #text1 {
-    padding-top: 14%;
-    padding-bottom: 148px;
-    width: 39%;
-    margin-left: 52%;
-    
+    padding-top: 10%;
+    padding-bottom: 47px;
+    width: 51%;
+    margin-left: 40%;
+}
+
+#text2 {
+    width: 28%;
+    margin-left: 4%;
+}
+
+#text3 {
+    width: 20%;
+    margin-left: 75%;
+    padding-top: 2%; 
+}
+
+h3{
+    margin-top: 122px;
 }
 /*text*/
 
@@ -684,4 +698,326 @@ footer {
     margin-left: 350px;
 }
 
+}
+
+/*services*/
+
+/*iPad 768 * 1024*/
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+    
+    /*Nav*/
+
+.headerL {
+    
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+#first-list {
+    gap: 7%;
+    margin-left: 37px;
+}
+
+/*Nav*/
+
+    
+/*Logo*/
+
+#logo {
+    width: 42%;
+    margin-top: -30px;
+    margin-bottom: -73px;
+    margin-left: 30%;
+}
+
+/*Logo*/
+
+/*text*/
+
+#firstH1 {
+    width: 100%;
+    font-size: 46px;
+}
+
+#firstH2 {
+    width: 100%;
+}
+
+#track {
+    flex-direction: column;
+    align-items: center;
+}
+
+#secondH2 {
+    width: 42%;
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+
+input[type="text"] {
+    margin-bottom: 1%;
+}
+
+#thirdH2 {
+    margin-right: -50%;
+    font-size: 31px;
+}
+
+#whyUsText {
+
+    top: 2111px;
+    margin-left: 37%;
+    font-size: 46px;
+}
+
+.paragraph {
+    font-size: 19px;
+}
+
+#text1 {
+    width: 93%;
+    margin-left: 25px;
+    padding-top: 22%;
+}
+
+#text2 {
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 6%;
+
+}
+
+#text3 {
+
+    width: 42%;
+    margin-left: 27%;
+    padding-top: 33%;
+}
+h3 {
+    font-size: 20px;
+    position: inherit;
+    margin-top: 28%;
+}
+
+#forAQuoute {
+    margin-left: 4%;
+}
+
+#number {
+    margin-right: 7%;
+}
+
+/*bottons*/
+
+#getAndEstimateBotton {
+
+    margin-left: 226px;
+}
+#printAndSend {
+    margin-top: 10%;
+    width: 345px;
+    height: 68px;
+    font-size: 37px;
+}
+
+/*bottons*/
+
+/*Services*/
+#transform{
+    margin-left: 182px;
+margin-top: 6%;
+}
+/*Services*/
+
+/*Footer*/
+.social {
+    width: 55px;
+}
+
+footer {
+    justify-content: space-between;
+    margin-left: -20px;
+    margin-right: 80px;
+}
+
+/*Footer*/
+
+
+}
+
+/*Iphone 12 Pro 390 * 844*/
+
+@media only screen and (max-width: 390px) {
+    
+    /*Nav*/
+
+.headerL {
+    
+    font-size: 17px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+#first-list {
+    gap: 15px;
+    margin-left: 7px;
+    margin-right: 10px;
+
+}
+
+/*Nav*/
+
+    
+/*Logo*/
+
+#logo {
+    width: 47%;
+    margin-top: 4px;
+    margin-bottom: -38px;
+    margin-left: 26%;
+}
+
+/*Logo*/
+    
+/*Text*/
+    
+    #firstH1{
+        font-size: 28px;
+        width: 100%;
+    }
+
+    #firstH2{
+        font-size: 28px;
+        width: 100%;
+}
+
+#track {
+    flex-direction: column;
+    align-items: center;
+}
+
+#secondH2 {
+
+    font-size: 28px;
+    width: 75%;
+    margin-left: -11%;
+}
+
+input[type="text"]{
+
+    width: 244px;
+    height: 30px;
+    font-size: 13px;
+}
+/*Text*/
+
+
+/*Bottons*/
+
+#trackButton {
+
+    width: 50px;
+    height: 37px;
+    margin-top: 2%;
+}
+
+#getAndEstimateBotton {
+
+    margin-left: 90px;
+}
+
+#getAnEstimate {
+
+    width: 205px;
+    height: 39px;
+    font-size: 20px;
+}
+
+#printAndSend {
+    margin-top: 34%;
+    width: 290px;
+    height: 57px;
+    font-size: 32px;
+}
+
+#secondtH2 {
+    font-size: 25px;
+}
+
+#thirdH2 {
+    font-size: 25px;
+}
+
+#number{
+    width: 100%;
+    margin-left: 60%;
+
+}
+
+#serviceTitle {
+    font-size: 35px;
+}
+
+#services-list {
+
+    font-size: 19px;
+}
+.paragraph {
+    font-size: 15px;
+}
+
+#text1 {
+    width: 90%;
+    margin-left: 15px;
+    padding-top: 22%;
+}
+
+#text2 {
+    width: 83%;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+#text3 {
+    width: 65%;
+    margin-left: 14%;
+    padding-top: 53%;
+}
+
+h3 {
+    margin-top: 48%;
+    font-size: 12px;
+}
+
+#whyUsText {
+    font-size: 43px;
+    top: 1949px;
+    margin-left: 101px;
+}
+
+/*Bottons*/
+
+footer {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 80px;
+    align-items: center;
+    justify-content: initial;
+}
+
+.social {
+    width: 40px;
+    filter: brightness(1);
+}
+
+/*Services*/
+#transform{
+    margin-left: 115px;
+margin-top: 6%;
+}
+/*Services*/
 }
