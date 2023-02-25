@@ -27,7 +27,7 @@ body {
     overflow-x: hidden;
 }
 
-
+/*Main*/
  /* Services section */
 
 
@@ -45,6 +45,8 @@ body {
    
  }
 
+/* Services section */
+
 /* Why Us? Section*/
 
 #why-us {
@@ -59,8 +61,6 @@ body {
     background-attachment:scroll;
    
  }
-
-/*Background*/
 
 
 /* Header*/
@@ -113,7 +113,7 @@ nav a {
     color: black;
 }
 
-
+/* Header*/
 
 /*hover*/
 
@@ -129,7 +129,7 @@ nav a {
  }
 
  .social:hover {
-    background: black;
+    filter: brightness(1);
     border-radius: 70%;
  }
 
@@ -141,7 +141,7 @@ nav a {
  }
 
  .social2:hover {
-    background: rgb(56, 49, 49);
+    background: rgb(134, 128, 128);
     
  }
 
@@ -162,6 +162,10 @@ nav a {
     color: black;
     font-weight: bold;
  }
+
+ #getAnEstimate:hover, #printAndSend:hover {
+    border: black solid 5px;
+ }
    
 /*hover*/
 
@@ -175,6 +179,23 @@ nav a {
 
 }
 
+#rightArrow {
+    width: 70%;
+ }
+
+ #calculator {
+    width: 12%;
+    
+}
+
+.social {
+    margin: 8px;
+    filter: brightness(0);
+    
+}
+/* Images */
+
+/* Text */
 #firstH1 {
     text-align: center;
     width: 60%;
@@ -219,6 +240,11 @@ nav a {
         background-color: rgba(255, 255, 255, 0.9);
     }
 
+    /* Text */
+
+
+    /* Bottons */
+
     #trackButton {
         margin-left: 20px;
         border-radius: 30px;
@@ -228,10 +254,7 @@ nav a {
         background-color: rgba(255, 255, 255, 0.8);
     }
 
- #rightArrow {
-    width: 70%;
- }
-
+ 
  #trackButton:hover {
     border: black solid 5px;
  }
@@ -253,12 +276,6 @@ nav a {
   margin-left: 410px;
   margin-top: 20px;
 }
-#calculator {
-    width: 12%;
-    
-}
-
-/*Bottons*/
 
 #printAndSend{
     cursor: pointer;
@@ -273,21 +290,11 @@ nav a {
     border-radius: 30px;
 }
 
-
-
-#aForm {
-   text-decoration: none;
-}
-
 #firstBottoms {
     display: contents;
 }
 
-
-#add {
-    width: 12%;
-}
- #submitBottons {
+#submitBottons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,11 +302,7 @@ nav a {
     
  }
 
- #getAnEstimate:hover, #printAndSend:hover {
-    border: black solid 5px;
- }
-
-#login {
+ #login {
     cursor: pointer;
     background-color:black;
     width: 200px;
@@ -342,6 +345,15 @@ input[class="formSubmit"] {
 }
 
 /*Bottons*/
+
+#aForm {
+   text-decoration: none;
+}
+
+#add {
+    width: 12%;
+}
+
 
  /*Services*/
 
@@ -388,7 +400,7 @@ input[class="formSubmit"] {
  #text1 {
     width: 30%;
     margin-left: 65%;
-    padding-top: 9%;
+    padding-top: 8%;
  }
 
  #text2 {
@@ -425,6 +437,7 @@ h3 {
     margin-top: 80px;
     font-size: 25px;
     font-family: 'Kite One', sans-serif;
+    margin-top: 6%;
 }
 
 
@@ -438,12 +451,6 @@ footer {
   height: 130px;
   margin-left: 50px;
   margin-right: 80px;
-}
-
-.social {
-    margin: 8px;
-    filter: brightness(0);
-    
 }
 
 
@@ -546,9 +553,6 @@ footer {
     
     
 }
-
-
-
 
 /* Responsive Design*/
 
@@ -680,7 +684,7 @@ footer {
 }
 
 h3{
-    margin-top: 122px;
+    margin-top: 140px;
 }
 /*text*/
 
@@ -1020,4 +1024,50 @@ footer {
 margin-top: 6%;
 }
 /*Services*/
+
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background: url(Background.jpg);   
+    background-position: top center;
+    overflow-x: hidden;
+}
+
+
+ /* Services section */
+
+
+
+ #services {
+    height: 100vh;
+   width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: url(notebook\ Phone.jpg);   
+    background-size: 665px 844px;
+    background-position: center center;
+    overflow-x: hidden;
+    background-attachment:scroll;
+   
+ }
+
+/* Why Us? Section*/
+
+#why-us {
+    height: 100vh;
+   width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: url(Cafe\ Background.jpg);   
+    background-size: cover;
+    background-position: bottom center;
+    overflow-x: hidden;
+    background-attachment:scroll;
+   
+ }
+
 }
