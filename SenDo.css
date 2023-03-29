@@ -25,6 +25,7 @@ body {
     background: url(Background.jpg);   
     background-position: top center;
     overflow-x: hidden;
+    background-size: cover;
 }
 
 /*Main*/
@@ -270,11 +271,14 @@ nav a {
     align-items: center;
     justify-content: center;
     border-radius: 30px;
+    margin-right: 82%;
 }
 
 #getAndEstimateBotton {
-  margin-left: 410px;
+  
   margin-top: 20px;
+  text-align:left;
+  margin-left: 22%;
 }
 
 #printAndSend{
@@ -558,7 +562,7 @@ footer {
 
 /* Desktop 1024 x 768 */
 
-@media only screen and (min-width: 1024px) and (max-width: 1900px) {
+@media only screen and (min-width: 1001px) and (max-width: 1900px) {
 
 /*Nav*/
 
@@ -592,7 +596,7 @@ footer {
     }
 
     #getAndEstimateBotton {
-     margin-left: 210px;
+        text-align: -webkit-center;
     }
 
     #getAnEstimate{
@@ -706,15 +710,15 @@ h3{
 
 /*services*/
 
-/*iPad 768 * 1024*/
+/*iPad 700 * 1000*/
 
-@media only screen and (min-width: 400px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
     
     /*Nav*/
 
 .headerL {
     
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     -webkit-text-stroke: 0.5px black;
 
@@ -731,10 +735,10 @@ h3{
 /*Logo*/
 
 #logo {
-    width: 42%;
-    margin-top: -30px;
+    width: 31%;
+    margin-top: 13px;
     margin-bottom: -73px;
-    margin-left: 30%;
+    margin-left: 37%;
 }
 
 /*Logo*/
@@ -743,7 +747,7 @@ h3{
 
 #firstH1 {
     width: 100%;
-    font-size: 46px;
+    font-size: 30px;
 }
 
 #firstH2 {
@@ -751,14 +755,21 @@ h3{
 }
 
 #track {
-    flex-direction: column;
-    align-items: center;
+    margin-top: 0%;
+    place-items: center;
+    display: grid;
+    justify-content: center;
 }
 
+input[type="text"] {
+    width: 450px;
+    height: 30px;}
+
 #secondH2 {
-    width: 42%;
-    font-size: 40px;
+    width: 31%;
+    font-size: 18px;
     margin-bottom: 17px;
+    padding: 0px;   
 }
 
 input[type="text"] {
@@ -818,12 +829,23 @@ h3 {
 
 #getAndEstimateBotton {
 
-    margin-left: 226px;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+#getAnEstimate{
+
+    font-size: 25px;
+    width: 250px;
+    height: 35px;
 }
 #printAndSend {
-    margin-top: 10%;
-    width: 345px;
-    height: 68px;
+    margin-top: 2%;
+    width: 338px;
+    height: 49px;
     font-size: 37px;
 }
 
@@ -854,7 +876,7 @@ footer {
 
 /*Iphone 12 Pro 390 * 844*/
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 599px) {
     
     /*Nav*/
 
@@ -879,10 +901,10 @@ footer {
 /*Logo*/
 
 #logo {
-    width: 47%;
-    margin-top: 4px;
-    margin-bottom: -38px;
-    margin-left: 26%;
+    width: 44%;
+    margin-top: -1%;
+    margin-left: 28%;
+    margin-bottom: -2%;Z
 }
 
 /*Logo*/
@@ -890,25 +912,27 @@ footer {
 /*Text*/
     
     #firstH1{
-        font-size: 28px;
+        font-size: 20px;
         width: 100%;
     }
 
     #firstH2{
-        font-size: 28px;
+        font-size: 20px;
         width: 100%;
 }
 
 #track {
-    flex-direction: column;
-    align-items: center;
+    margin-top: -1%;
+    place-items: center;
+    display: grid;
+    justify-content: center;
 }
 
 #secondH2 {
 
-    font-size: 28px;
+    font-size: 20px;
     width: 75%;
-    margin-left: -11%;
+    
 }
 
 input[type="text"]{
@@ -931,7 +955,11 @@ input[type="text"]{
 
 #getAndEstimateBotton {
 
-    margin-left: 90px;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14%;
 }
 
 #getAnEstimate {
@@ -942,7 +970,7 @@ input[type="text"]{
 }
 
 #printAndSend {
-    margin-top: 34%;
+    
     width: 290px;
     height: 57px;
     font-size: 32px;
@@ -1071,3 +1099,4 @@ margin-top: 6%;
  }
 
 }
+

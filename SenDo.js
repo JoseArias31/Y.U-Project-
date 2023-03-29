@@ -28,7 +28,7 @@ function openEstimateSection() {
 
 // Track your order
 
-/*const trackNumberRG = /^\d{3}-\d{2}-\d{3}-\d{2}$/;
+const trackNumberRG = /^\d{3}-\d{2}-\d{3}-\d{2}$/;
 const $track = document.getElementById("nombre");
 const isValidTrackNumber = trackNumberRG.test($track.value);
 
