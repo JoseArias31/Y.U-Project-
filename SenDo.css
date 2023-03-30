@@ -617,7 +617,7 @@ footer {
     }
 
     #submitBottons {
-        margin-top: 90px;
+        margin-top: 35px;
     }
 
 /*Bottons and inputs*/  
@@ -688,7 +688,15 @@ footer {
 }
 
 h3{
-    margin-top: 140px;
+    margin-top: 0;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;  
 }
 /*text*/
 
@@ -699,11 +707,15 @@ h3{
 }
 
 /*Footer*/
-
+footer {
+    font-size: 5px;
+    margin-top: 10%;
+}
 /*services*/
 
 #transform{
-    margin-left: 350px;
+    margin-left: 425px;
+    margin-top: 85px;
 }
 
 }
@@ -738,7 +750,7 @@ h3{
     width: 31%;
     margin-top: 13px;
     margin-bottom: -73px;
-    margin-left: 37%;
+    margin-left: 35%;
 }
 
 /*Logo*/
@@ -783,9 +795,9 @@ input[type="text"] {
 
 #whyUsText {
 
-    top: 2111px;
-    margin-left: 37%;
-    font-size: 46px;
+    top: 2110px;
+    margin-left: 72%;
+    font-size: 39px;
 }
 
 .paragraph {
@@ -795,7 +807,7 @@ input[type="text"] {
 #text1 {
     width: 93%;
     margin-left: 25px;
-    padding-top: 22%;
+    padding-top: 10%;
 }
 
 #text2 {
@@ -807,14 +819,21 @@ input[type="text"] {
 
 #text3 {
 
-    width: 42%;
-    margin-left: 27%;
-    padding-top: 33%;
+    width: 27%;
+    margin-left: 35%;
+    padding-top: 30%;
+    font-size: 17px;
 }
 h3 {
-    font-size: 20px;
-    position: inherit;
-    margin-top: 28%;
+    margin-top: 0;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    font-weight: bolder; 
 }
 
 #forAQuoute {
@@ -849,18 +868,27 @@ h3 {
     font-size: 37px;
 }
 
+
+#submitBottons {
+
+    margin-top: 35px;
+}
 /*bottons*/
 
 /*Services*/
 #transform{
-    margin-left: 182px;
+    margin-left: 271px;
 margin-top: 6%;
+}
+
+#services-list {
+    font-size: 19px;
 }
 /*Services*/
 
 /*Footer*/
 .social {
-    width: 55px;
+    width: 40px;
 }
 
 footer {
@@ -870,7 +898,9 @@ footer {
 }
 
 /*Footer*/
-
+b {
+    font-size: 23px;
+}
 
 }
 
@@ -902,9 +932,9 @@ footer {
 
 #logo {
     width: 44%;
-    margin-top: -1%;
+    margin-top: 8%;
     margin-left: 28%;
-    margin-bottom: -2%;Z
+    margin-bottom: -11%;
 }
 
 /*Logo*/
@@ -971,10 +1001,13 @@ input[type="text"]{
 
 #printAndSend {
     
-    width: 290px;
-    height: 57px;
-    font-size: 32px;
+    width: 240px;
+    height: 49px;
+    font-size: 25px;
 }
+#submitBottons {
+margin-top: 35px;
+}   
 
 #secondtH2 {
     font-size: 25px;
@@ -1005,7 +1038,7 @@ input[type="text"]{
 #text1 {
     width: 90%;
     margin-left: 15px;
-    padding-top: 22%;
+    padding-top: 7%;
 }
 
 #text2 {
@@ -1017,7 +1050,7 @@ input[type="text"]{
 #text3 {
     width: 65%;
     margin-left: 14%;
-    padding-top: 53%;
+    padding-top: 10%;
 }
 
 h3 {
@@ -1027,8 +1060,8 @@ h3 {
 
 #whyUsText {
     font-size: 43px;
-    top: 1949px;
-    margin-left: 101px;
+    top: 1898px;
+    margin-left: 106px;
 }
 
 /*Bottons*/
