@@ -100,7 +100,7 @@ nav a {
     gap: 9%;
     margin-right: 60px;
     color: white;
-    
+   
 }
 
 .headerL {
@@ -722,6 +722,15 @@ footer {
 
 /*services*/
 
+@media only screen and (min-width: 601px){
+    .toggle-menu {
+        display: none;
+}
+
+.checkbox-toggle-menu {
+    display: none;
+}
+}
 /*iPad 700 * 1000*/
 
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
@@ -906,23 +915,56 @@ b {
 
 /*Iphone 12 Pro 390 * 844*/
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) {
     
     /*Nav*/
 
 .headerL {
     
-    font-size: 17px;
+    font-size: 27px;
     font-weight: bold;
     -webkit-text-stroke: 0.5px black;
 
 }
 
+.toggle-menu {
+    width: 40px;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+    filter: invert(1);
+   z-index: 1;
+  
+}
+
+.menu-toggle {
+    width: 40px;
+}
+
+.first-list--show {
+    transform: translateY(0);
+}
+.checkbox-toggle-menu:checked + #first-list {
+    transform: translateY(0);
+}
+
+.checkbox-toggle-menu {
+    display: none;
+}
+
 #first-list {
-    gap: 15px;
+    gap: 45px;
     margin-left: 7px;
     margin-right: 10px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000d4;
+    transform: translateY(-110%);
+    transition: transform 0.3s;
+    padding: 0;
+    margin: 0;
 }
 
 /*Nav*/
@@ -1061,7 +1103,7 @@ h3 {
 #whyUsText {
     font-size: 43px;
     top: 1898px;
-    margin-left: 106px;
+    margin-left: 106px; 
 }
 
 /*Bottons*/
@@ -1130,6 +1172,8 @@ margin-top: 6%;
     background-attachment:scroll;
    
  }
+
+ 
 
 }
 
